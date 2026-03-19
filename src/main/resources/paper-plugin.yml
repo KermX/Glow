@@ -1,0 +1,13 @@
+name: Glow
+version: '0.0.1'
+main: net.prismacraft.glow.Glow
+api-version: '1.21'
+dependencies:
+  server:
+    packetevents:
+      required: true
+      load: AFTER
+      join-classpath: true
+    PlaceholderAPI:
+      required: true
+      load: BEFORE

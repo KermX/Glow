@@ -1,0 +1,229 @@
+tab-compat:
+  enabled: true
+
+glows:
+  black:
+    colors: [black]
+    cycle-ticks: 20
+    permission: glow.color.black
+    icon: BLACK_WOOL
+    name: "<black>Black Glow"
+
+  dark_blue:
+    colors: [dark_blue]
+    cycle-ticks: 20
+    permission: glow.color.dark_blue
+    icon: BLUE_WOOL
+    name: "<dark_blue>Dark Blue Glow"
+
+  dark_green:
+    colors: [dark_green]
+    cycle-ticks: 20
+    permission: glow.color.dark_green
+    icon: GREEN_WOOL
+    name: "<dark_green>Dark Green Glow"
+
+  dark_aqua:
+    colors: [dark_aqua]
+    cycle-ticks: 20
+    permission: glow.color.dark_aqua
+    icon: PRISMARINE_BRICKS
+    name: "<dark_aqua>Dark Aqua Glow"
+
+  dark_red:
+    colors: [dark_red]
+    cycle-ticks: 20
+    permission: glow.color.dark_red
+    icon: STRIPPED_MANGROVE_WOOD
+    name: "<dark_red>Dark Red Glow"
+
+  dark_purple:
+    colors: [dark_purple]
+    cycle-ticks: 20
+    permission: glow.color.dark_purple
+    icon: PURPLE_TERRACOTTA
+    name: "<dark_purple>Dark Purple Glow"
+
+  gold:
+    colors: [gold]
+    cycle-ticks: 20
+    permission: glow.color.gold
+    icon: RESIN_BRICKS
+    name: "<gold>Gold Glow"
+
+  gray:
+    colors: [gray]
+    cycle-ticks: 20
+    permission: glow.color.gray
+    icon: STONE
+    name: "<gray>Gray Glow"
+
+  dark_gray:
+    colors: [dark_gray]
+    cycle-ticks: 20
+    permission: glow.color.dark_gray
+    icon: GRAY_WOOL
+    name: "<dark_gray>Dark Gray Glow"
+
+  blue:
+    colors: [blue]
+    cycle-ticks: 20
+    permission: glow.color.blue
+    icon: TUBE_CORAL_BLOCK
+    name: "<blue>Blue Glow"
+
+  green:
+    colors: [green]
+    cycle-ticks: 20
+    permission: glow.color.green
+    icon: LIME_WOOL
+    name: "<green>Green Glow"
+
+  aqua:
+    colors: [aqua]
+    cycle-ticks: 20
+    permission: glow.color.aqua
+    icon: DIAMOND_BLOCK
+    name: "<aqua>Aqua Glow"
+
+  red:
+    colors: [red]
+    cycle-ticks: 20
+    permission: glow.color.red
+    icon: RED_WOOL
+    name: "<red>Red Glow"
+
+  light_purple:
+    colors: [light_purple]
+    cycle-ticks: 20
+    permission: glow.color.light_purple
+    icon: MAGENTA_WOOL
+    name: "<light_purple>Light Purple Glow"
+
+  yellow:
+    colors: [yellow]
+    cycle-ticks: 20
+    permission: glow.color.yellow
+    icon: GOLD_BLOCK
+    name: "<yellow>Yellow Glow"
+
+  white:
+    colors: [white]
+    cycle-ticks: 20
+    permission: glow.color.white
+    icon: WHITE_WOOL
+    name: "<white>White Glow"
+
+  rainbow:
+    colors:
+      - dark_red
+      - red
+      - gold
+      - yellow
+      - green
+      - dark_green
+      - aqua
+      - dark_aqua
+      - dark_blue
+      - blue
+      - light_purple
+      - dark_purple
+    cycle-ticks: 5
+    requires-unlocked-glows: 11
+    requires-unlocked-from:
+      - black
+      - dark_blue
+      - dark_green
+      - dark_aqua
+      - dark_red
+      - dark_purple
+      - gold
+      - gray
+      - dark_gray
+      - blue
+      - green
+      - aqua
+      - red
+      - light_purple
+      - yellow
+      - white
+    icon: ORANGE_GLAZED_TERRACOTTA
+    name: "<gradient:red:yellow:green:aqua:blue:light_purple>Rainbow Glow</gradient>"
+
+#  donator:
+#    colors:
+#      - purple
+#      - light_purple
+#      - aqua
+#      - dark_aqua
+#    cycle-ticks: 10
+#    icon: PURPLE_GLAZED_TERRACOTTA
+#    name: "<gradient:purple:light_purple:aqua:dark_aqua>Donator Glow</gradient>"
+
+  amber:
+    colors:
+      - yellow
+      - gold
+      - white
+      - gold
+    cycle-ticks: 10
+    permission: glow.color.donator.amber
+    icon: RESIN_BLOCK
+    name: "<gradient:yellow:gold>Amber Glow</gradient>"
+
+  opal:
+    colors:
+      - light_purple
+      - white
+      - aqua
+      - white
+      - yellow
+    cycle-ticks: 10
+    permission: glow.color.donator.opal
+    icon: CALCITE
+    name: "<gradient:light_purple:yellow:aqua:white>Opal Glow</gradient>"
+
+  jade:
+    colors:
+      - green
+      - dark_green
+      - green
+      - white
+      - dark_green
+    cycle-ticks: 10
+    permission: glow.color.donator.jade
+    icon: EMERALD_BLOCK
+    name: "<gradient:green:dark_green>Jade Glow</gradient>"
+
+  ruby:
+    colors:
+      - red
+      - dark_red
+      - dark_gray
+      - dark_red
+    cycle-ticks: 10
+    permission: glow.color.donator.ruby
+    icon: RED_GLAZED_TERRACOTTA
+    name: "<gradient:red:dark_red:dark_gray>Ruby Glow</gradient>"
+
+  onyx:
+    colors:
+      - white
+      - gray
+      - dark_gray
+      - black
+    cycle-ticks: 10
+    permission: glow.color.donator.onyx
+    icon: TINTED_GLASS
+    name: "<gradient:black:gray:dark_gray>Onyx Glow</gradient>"
+
+  sapphire:
+    colors:
+      - dark_blue
+      - blue
+      - dark_aqua
+      - blue
+    cycle-ticks: 10
+    permission: glow.color.donator.sapphire
+    icon: DIAMOND_BLOCK
+    name: "<gradient:dark_blue:blue:dark_aqua>Sapphire Glow</gradient>"
